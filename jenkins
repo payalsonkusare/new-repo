@@ -8,7 +8,7 @@ pipeline {
 	stages {
         stage('new_folder') {
             steps {
-                sh 'mkdir Dee'
+                sh 'mkdir Dee new folder '
             }
         }
 		
